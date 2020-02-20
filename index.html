@@ -15,6 +15,11 @@
             img[class=appleWatchLogo]{width: 20% !important; min-width:100px !important;}
             table[id=learnMoreLinks]{width: 60% !important;}
         }
+        @media only screen and (max-width: 380px){
+            div[id=newBandsTxt]{padding-top: 80px !important;}
+            table[id=newBandsBtn]{width: 30% !important; margin-top: ;}
+            table[id=newBandsBtn] a{line-height: 25px !important; text-align: left !important; padding-top: 5px;}
+        }
     </style>
 
 </head>
@@ -311,7 +316,7 @@
                       <v:fill type="tile" src="img3-straps.png" color="#7d7d7d" />
                       <v:textbox inset="0,0,0,0">
                     <![endif]-->
-                    <div style="padding-top: 120px;">
+                    <div style="padding-top: 120px;" id="newBandsTxt">
                         <table border="0" cellpadding="0" cellspacing="0" width="40%">
                             <tr>
                                 <td align="left" style="padding-left: 20px; font-size: 25px; font-weight: 500;">
@@ -321,7 +326,7 @@
                                 </td>
                             </tr>
                         </table>
-                        <table border="0" cellpadding="0" cellspacing="0" width="40%" style="margin-top: 5px;">
+                        <table border="0" cellpadding="0" cellspacing="0" width="40%" style="margin-top: 5px;" id="newBandsBtn">
                             <tr>
                                 <td align="left" style="padding-left: 20px;">
                                     <!--[if mso]>
