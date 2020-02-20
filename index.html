@@ -7,9 +7,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <style>
-        body{
-            padding: 0;
-            margin: 0;
+        body{padding: 0; margin: 0;}
+
+        @media only screen and (max-width: 666px){
+            td[class=learnMore1]{width: 100% !important; background-color: #F0F6F6 !important; margin-bottom: 20px;}
+            td[class=learnMore2]{width: 100% !important; background-color: #FDF8F4 !important;}
+            img[class=nikePlus]{border: 1px solid red !important;}
         }
     </style>
 
@@ -138,9 +141,9 @@
 
 
         <!-- ==========================LEARN MORE SECTION ========================== -->
-        <table border="0" align="center" cellpadding="0" cellspacing="0" width="100%" style="padding:20px 0 ;">
+        <table border="0" align="center" cellpadding="0" cellspacing="0" width="100%" style="padding:20px 0;">
             <tr>
-                <td valign="top" width="330" height="497" background="img2-watch1.png" bgcolor="#ffffff" style="padding-right: 25px; background-repeat: no-repeat">
+                <td valign="top" background="img2-watch1.png" bgcolor="#ffffff" style="display:inline-block; width:330px; height:497px; padding-right: 0px; background-repeat: no-repeat; background-position: center;" class="learnMore1">
                     <!--[if gte mso 9]>
                     <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:300px;height:497px;">
                       <v:fill type="tile" src="img2-watch1.png" color="#7d7d7d" />
@@ -157,7 +160,7 @@
                                     |
                                 </td>
                                 <td align="center" style="display: inline;">
-                                    <img src="/img0-nike+.png" style="padding-left:5px">
+                                    <img src="/img0-nike+.png" style="padding-left:5px" class="nikePlus">
                                 </td>
                             </tr>
                         </table>
@@ -215,7 +218,9 @@
                         </v:rect>
                         <![endif]-->
                 </td>
-                <td valign="top" width="330" height="497" background="img2-watch2.png" bgcolor="#ffffff" style="padding-left: 5px; background-repeat: no-repeat;">
+
+
+                <td valign="top" background="img2-watch2.png" bgcolor="#ffffff" style="display:inline-block; width:330px; height:497px; padding-left: 0px; background-repeat: no-repeat; background-position: center;" class="learnMore2">
                     <!--[if gte mso 9]>
                     <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:680px;height:497px;">
                       <v:fill type="tile" src="img1-hero.png" color="#7d7d7d" />
@@ -232,7 +237,7 @@
                                     |
                                 </td>
                                 <td align="center" style="display: inline;">
-                                    <img src="/img0-hermes.png" style="padding-left:5px; padding-top: 3px;">
+                                    <img src="/img0-hermes.png" style="padding-left:5px; padding-top: 3px;" class="hermes">
                                 </td>
                             </tr>
                         </table>
